@@ -6,7 +6,7 @@
 - Composer 2 (Composer 2.4+ is sufficient for the local baseline).
 - A browser for the optional local smoke check.
 
-The starter does not require one exact patch version. Use the version already available on your laptop as long as the project runs; newer stable versions are recommended. Do not spend assessment time upgrading dependencies unless it is relevant to your implementation.
+The starter does not require one exact patch version. Use the version already available on your laptop as long as the project runs; newer stable versions are recommended. Do not spend assessment time upgrading dependencies unless it is relevant to your implementation. The starter defaults to SQLite for a low-friction local run; follow the active study-case database requirement when preparing the candidate solution.
 
 ## Install from a clean clone
 
@@ -39,7 +39,7 @@ The baseline contains small PHPUnit smoke tests for login, room catalog, reserva
 
 ## Study-case boundary
 
-The app covers a campus room catalog, sample reservations, a demo login, and the starting reservation form. The persistence, capacity rule, time-range rule, overlap detection, ownership, and candidate-owned automated tests are intentionally left for the study case. See `docs/STARTER_BASELINE.md` and `docs/INTENTIONAL_GAPS.md` for the exact boundary. Candidates should use their own fork/repository and never commit credentials.
+The app covers a campus room catalog, sample reservations, a demo login, and the starting reservation form. The persistence, capacity rule, time-range rule, overlap detection, ownership, and candidate-owned automated tests are intentionally left for the study case. See `docs/STARTER_BASELINE.md` and `docs/INTENTIONAL_GAPS.md` for the exact boundary. Panitia creates one private candidate repository from this starter and invites the assigned candidate; candidates clone that assigned repository, work in their own branch, and open a pull request. Do not fork the panitia template or push directly to it, and never commit credentials.
 
 ## Troubleshooting
 
